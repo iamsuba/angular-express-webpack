@@ -1,0 +1,28 @@
+{
+  "name": "express-angular-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "web-server.js",
+  "scripts": {
+    "build": "webpack",
+    "server": "node web-server"
+  },
+  "author": "suba radhakrishnan",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-ui-router": "^1.0.3",
+    "express": "^4.15.4",
+    "method-override": "^2.3.9"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.16",
+    "css-loader": "^0.28.7",
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^2.30.1",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.5",
+    "webpack-dev-middleware": "^1.12.0"
+  }
+}

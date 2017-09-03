@@ -1,0 +1,14 @@
+<html>
+	<head>
+		<meta charset="utf8">
+		<title>Angular Express Seed App</title>
+	</head>
+	<body ng-app="caApp">
+		<div ng-controller="caCtrl">
+		<!--The double brackets refer to the $scope.name variable in public/js/controllers.js-->
+		<h2>Hello world from <span class="test-container">{{appName}}</span></h2>
+		<!--The partials are embeded in the ng-view div-->
+		<div ui-view></div>
+		</div>
+	</body>
+</html>
